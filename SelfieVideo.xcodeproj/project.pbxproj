@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF313EF52C5E562200AC85AD /* SelfieVideoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313EF42C5E562200AC85AD /* SelfieVideoApp.swift */; };
+		EF313EF72C5E562200AC85AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313EF62C5E562200AC85AD /* ContentView.swift */; };
+		EF313EF92C5E562300AC85AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF313EF82C5E562300AC85AD /* Assets.xcassets */; };
+		EF313EFC2C5E562300AC85AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF313EFB2C5E562300AC85AD /* Preview Assets.xcassets */; };
+		EF313F062C5E562300AC85AD /* SelfieVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313F052C5E562300AC85AD /* SelfieVideoTests.swift */; };
+		EF313F102C5E562300AC85AD /* SelfieVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313F0F2C5E562300AC85AD /* SelfieVideoUITests.swift */; };
+		EF313F122C5E562300AC85AD /* SelfieVideoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313F112C5E562300AC85AD /* SelfieVideoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF313F022C5E562300AC85AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF313EE92C5E562200AC85AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF313EF02C5E562200AC85AD;
+			remoteInfo = SelfieVideo;
+		};
+		EF313F0C2C5E562300AC85AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF313EE92C5E562200AC85AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF313EF02C5E562200AC85AD;
+			remoteInfo = SelfieVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF313EF12C5E562200AC85AD /* SelfieVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SelfieVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF313EF42C5E562200AC85AD /* SelfieVideoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieVideoApp.swift; sourceTree = "<group>"; };
+		EF313EF62C5E562200AC85AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF313EF82C5E562300AC85AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF313EFB2C5E562300AC85AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF313F012C5E562300AC85AD /* SelfieVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF313F052C5E562300AC85AD /* SelfieVideoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieVideoTests.swift; sourceTree = "<group>"; };
+		EF313F0B2C5E562300AC85AD /* SelfieVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF313F0F2C5E562300AC85AD /* SelfieVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieVideoUITests.swift; sourceTree = "<group>"; };
+		EF313F112C5E562300AC85AD /* SelfieVideoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieVideoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF313EEE2C5E562200AC85AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF313EFE2C5E562300AC85AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF313F082C5E562300AC85AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF313EE82C5E562200AC85AD = {
+			isa = PBXGroup;
+			children = (
+				EF313EF32C5E562200AC85AD /* SelfieVideo */,
+				EF313F042C5E562300AC85AD /* SelfieVideoTests */,
+				EF313F0E2C5E562300AC85AD /* SelfieVideoUITests */,
+				EF313EF22C5E562200AC85AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF313EF22C5E562200AC85AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF313EF12C5E562200AC85AD /* SelfieVideo.app */,
+				EF313F012C5E562300AC85AD /* SelfieVideoTests.xctest */,
+				EF313F0B2C5E562300AC85AD /* SelfieVideoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF313EF32C5E562200AC85AD /* SelfieVideo */ = {
+			isa = PBXGroup;
+			children = (
+				EF313EF42C5E562200AC85AD /* SelfieVideoApp.swift */,
+				EF313EF62C5E562200AC85AD /* ContentView.swift */,
+				EF313EF82C5E562300AC85AD /* Assets.xcassets */,
+				EF313EFA2C5E562300AC85AD /* Preview Content */,
+			);
+			path = SelfieVideo;
+			sourceTree = "<group>";
+		};
+		EF313EFA2C5E562300AC85AD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF313EFB2C5E562300AC85AD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF313F042C5E562300AC85AD /* SelfieVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF313F052C5E562300AC85AD /* SelfieVideoTests.swift */,
+			);
+			path = SelfieVideoTests;
+			sourceTree = "<group>";
+		};
+		EF313F0E2C5E562300AC85AD /* SelfieVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF313F0F2C5E562300AC85AD /* SelfieVideoUITests.swift */,
+				EF313F112C5E562300AC85AD /* SelfieVideoUITestsLaunchTests.swift */,
+			);
+			path = SelfieVideoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF313EF02C5E562200AC85AD /* SelfieVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF313F152C5E562300AC85AD /* Build configuration list for PBXNativeTarget "SelfieVideo" */;
+			buildPhases = (
+				EF313EED2C5E562200AC85AD /* Sources */,
+				EF313EEE2C5E562200AC85AD /* Frameworks */,
+				EF313EEF2C5E562200AC85AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelfieVideo;
+			productName = SelfieVideo;
+			productReference = EF313EF12C5E562200AC85AD /* SelfieVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF313F002C5E562300AC85AD /* SelfieVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF313F182C5E562300AC85AD /* Build configuration list for PBXNativeTarget "SelfieVideoTests" */;
+			buildPhases = (
+				EF313EFD2C5E562300AC85AD /* Sources */,
+				EF313EFE2C5E562300AC85AD /* Frameworks */,
+				EF313EFF2C5E562300AC85AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF313F032C5E562300AC85AD /* PBXTargetDependency */,
+			);
+			name = SelfieVideoTests;
+			productName = SelfieVideoTests;
+			productReference = EF313F012C5E562300AC85AD /* SelfieVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF313F0A2C5E562300AC85AD /* SelfieVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF313F1B2C5E562300AC85AD /* Build configuration list for PBXNativeTarget "SelfieVideoUITests" */;
+			buildPhases = (
+				EF313F072C5E562300AC85AD /* Sources */,
+				EF313F082C5E562300AC85AD /* Frameworks */,
+				EF313F092C5E562300AC85AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF313F0D2C5E562300AC85AD /* PBXTargetDependency */,
+			);
+			name = SelfieVideoUITests;
+			productName = SelfieVideoUITests;
+			productReference = EF313F0B2C5E562300AC85AD /* SelfieVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF313EE92C5E562200AC85AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					EF313EF02C5E562200AC85AD = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					EF313F002C5E562300AC85AD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EF313EF02C5E562200AC85AD;
+					};
+					EF313F0A2C5E562300AC85AD = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = EF313EF02C5E562200AC85AD;
+					};
+				};
+			};
+			buildConfigurationList = EF313EEC2C5E562200AC85AD /* Build configuration list for PBXProject "SelfieVideo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF313EE82C5E562200AC85AD;
+			productRefGroup = EF313EF22C5E562200AC85AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF313EF02C5E562200AC85AD /* SelfieVideo */,
+				EF313F002C5E562300AC85AD /* SelfieVideoTests */,
+				EF313F0A2C5E562300AC85AD /* SelfieVideoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF313EEF2C5E562200AC85AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF313EFC2C5E562300AC85AD /* Preview Assets.xcassets in Resources */,
+				EF313EF92C5E562300AC85AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF313EFF2C5E562300AC85AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF313F092C5E562300AC85AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF313EED2C5E562200AC85AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF313EF72C5E562200AC85AD /* ContentView.swift in Sources */,
+				EF313EF52C5E562200AC85AD /* SelfieVideoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF313EFD2C5E562300AC85AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF313F062C5E562300AC85AD /* SelfieVideoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF313F072C5E562300AC85AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF313F122C5E562300AC85AD /* SelfieVideoUITestsLaunchTests.swift in Sources */,
+				EF313F102C5E562300AC85AD /* SelfieVideoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF313F032C5E562300AC85AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF313EF02C5E562200AC85AD /* SelfieVideo */;
+			targetProxy = EF313F022C5E562300AC85AD /* PBXContainerItemProxy */;
+		};
+		EF313F0D2C5E562300AC85AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF313EF02C5E562200AC85AD /* SelfieVideo */;
+			targetProxy = EF313F0C2C5E562300AC85AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF313F132C5E562300AC85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF313F142C5E562300AC85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF313F162C5E562300AC85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SelfieVideo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9D79AWT4TU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halim.SelfieVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF313F172C5E562300AC85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SelfieVideo/Preview Content\"";
+				DEVELOPMENT_TEAM = 9D79AWT4TU;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halim.SelfieVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF313F192C5E562300AC85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D79AWT4TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halim.SelfieVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfieVideo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SelfieVideo";
+			};
+			name = Debug;
+		};
+		EF313F1A2C5E562300AC85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D79AWT4TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halim.SelfieVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SelfieVideo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SelfieVideo";
+			};
+			name = Release;
+		};
+		EF313F1C2C5E562300AC85AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D79AWT4TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halim.SelfieVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelfieVideo;
+			};
+			name = Debug;
+		};
+		EF313F1D2C5E562300AC85AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9D79AWT4TU;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.halim.SelfieVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SelfieVideo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF313EEC2C5E562200AC85AD /* Build configuration list for PBXProject "SelfieVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF313F132C5E562300AC85AD /* Debug */,
+				EF313F142C5E562300AC85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF313F152C5E562300AC85AD /* Build configuration list for PBXNativeTarget "SelfieVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF313F162C5E562300AC85AD /* Debug */,
+				EF313F172C5E562300AC85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF313F182C5E562300AC85AD /* Build configuration list for PBXNativeTarget "SelfieVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF313F192C5E562300AC85AD /* Debug */,
+				EF313F1A2C5E562300AC85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF313F1B2C5E562300AC85AD /* Build configuration list for PBXNativeTarget "SelfieVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF313F1C2C5E562300AC85AD /* Debug */,
+				EF313F1D2C5E562300AC85AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF313EE92C5E562200AC85AD /* Project object */;
+}
