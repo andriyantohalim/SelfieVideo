@@ -23,6 +23,7 @@ class SelfieVideoViewModel: NSObject, ObservableObject, AVCaptureFileOutputRecor
         captureSession = AVCaptureSession()
         captureSession?.sessionPreset = .high
 
+        // Add video input
         guard let camera = AVCaptureDevice.default(.builtInWideAngleCamera, for: .video, position: .front) else { return }
         do {
             let input = try AVCaptureDeviceInput(device: camera)
@@ -31,11 +32,22 @@ class SelfieVideoViewModel: NSObject, ObservableObject, AVCaptureFileOutputRecor
             print("Error setting up camera input: \(error)")
         }
 
+        // Add audio input
+        guard let microphone = AVCaptureDevice.default(for: .audio) else { return }
+        do {
+            let audioInput = try AVCaptureDeviceInput(device: microphone)
+            captureSession?.addInput(audioInput)
+        } catch {
+            print("Error setting up audio input: \(error)")
+        }
+        
+        // Setup movie output
         movieOutput = AVCaptureMovieFileOutput()
         if let movieOutput = movieOutput {
             captureSession?.addOutput(movieOutput)
         }
         
+        // Setup preview layer
         previewLayer = AVCaptureVideoPreviewLayer(session: captureSession!)
         previewLayer?.videoGravity = .resizeAspectFill
 
