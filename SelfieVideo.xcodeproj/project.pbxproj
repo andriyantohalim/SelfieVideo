@@ -14,6 +14,8 @@
 		EF313F062C5E562300AC85AD /* SelfieVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313F052C5E562300AC85AD /* SelfieVideoTests.swift */; };
 		EF313F102C5E562300AC85AD /* SelfieVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313F0F2C5E562300AC85AD /* SelfieVideoUITests.swift */; };
 		EF313F122C5E562300AC85AD /* SelfieVideoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313F112C5E562300AC85AD /* SelfieVideoUITestsLaunchTests.swift */; };
+		EF313F1F2C5E565E00AC85AD /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313F1E2C5E565E00AC85AD /* CameraView.swift */; };
+		EF313F212C5E567200AC85AD /* SelfieVideoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF313F202C5E567200AC85AD /* SelfieVideoViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		EF313F0B2C5E562300AC85AD /* SelfieVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SelfieVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF313F0F2C5E562300AC85AD /* SelfieVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieVideoUITests.swift; sourceTree = "<group>"; };
 		EF313F112C5E562300AC85AD /* SelfieVideoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieVideoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EF313F1E2C5E565E00AC85AD /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		EF313F202C5E567200AC85AD /* SelfieVideoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfieVideoViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				EF313EF42C5E562200AC85AD /* SelfieVideoApp.swift */,
+				EF313F1E2C5E565E00AC85AD /* CameraView.swift */,
+				EF313F202C5E567200AC85AD /* SelfieVideoViewModel.swift */,
 				EF313EF62C5E562200AC85AD /* ContentView.swift */,
 				EF313EF82C5E562300AC85AD /* Assets.xcassets */,
 				EF313EFA2C5E562300AC85AD /* Preview Content */,
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF313F1F2C5E565E00AC85AD /* CameraView.swift in Sources */,
 				EF313EF72C5E562200AC85AD /* ContentView.swift in Sources */,
 				EF313EF52C5E562200AC85AD /* SelfieVideoApp.swift in Sources */,
+				EF313F212C5E567200AC85AD /* SelfieVideoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +433,9 @@
 				DEVELOPMENT_TEAM = 9D79AWT4TU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take Video";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save Video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Save Video";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +465,9 @@
 				DEVELOPMENT_TEAM = 9D79AWT4TU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Take Video";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Save Video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Save Video";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
