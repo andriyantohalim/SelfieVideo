@@ -1,5 +1,5 @@
 //
-//  CameraView.swift
+//  SelfieVideoView.swift
 //  SelfieVideo
 //
 //  Created by Andriyanto Halim on 3/8/24.
@@ -8,13 +8,13 @@
 import SwiftUI
 import AVFoundation
 
-struct CameraView: View {
+struct SelfieVideoView: View {
     @ObservedObject var viewModel = SelfieVideoViewModel()
     @State private var isRecording = false
     
     var body: some View {
         ZStack {
-            CameraPreview(previewLayer: viewModel.getPreviewLayer())
+            SelfieVideoViewPreview(previewLayer: viewModel.getPreviewLayer())
                 .edgesIgnoringSafeArea(.all)
 
             VStack {
@@ -43,7 +43,7 @@ struct CameraView: View {
     }
 }
 
-struct CameraPreview: UIViewRepresentable {
+struct SelfieVideoViewPreview: UIViewRepresentable {
     let previewLayer: AVCaptureVideoPreviewLayer?
 
     func makeUIView(context: Context) -> UIView {
@@ -60,5 +60,5 @@ struct CameraPreview: UIViewRepresentable {
 
 
 #Preview {
-    CameraView()
+    SelfieVideoView()
 }
